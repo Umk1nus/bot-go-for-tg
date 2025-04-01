@@ -95,5 +95,5 @@ func (c *Client) SendMessage(chatID int, text string) error {
 		return lib.ErrorValidate("Не удалось отправить сообщение", err)
 	}
 
-	return err
+	return nil
 }
